@@ -4,8 +4,8 @@ import Config
 config :hello_phx, HelloPhx.Repo,
   username: "postgres",
   password: "postgres",
-  hostname: "172.17.0.2",
-  database: "some_postgres",
+  hostname: "0.0.0.0",
+  database: "hellophx",
   stacktrace: true,
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
